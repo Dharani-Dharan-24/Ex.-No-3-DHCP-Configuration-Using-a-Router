@@ -1,5 +1,4 @@
 ## Ex. No: 3  DHCP Configuration Using a Router
-Date: 24/10/2026
 ________________________________________
 # Objective
 To configure a router to automatically assign IP addresses to client PCs using the Dynamic Host Configuration Protocol (DHCP).
