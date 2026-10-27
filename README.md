@@ -15,7 +15,8 @@ Description:<br>
 •	PC0 and PC1 are connected to Switch0.<br>
 •	Switch0 is connected to Router0 on FastEthernet0/0.<br>
 •	The router acts as a DHCP server for the connected LAN.<br>
-<img width="1915" height="1017" alt="image" src="https://github.com/user-attachments/assets/402889df-2cda-4d89-9828-f2a0e44a3d4b" />
+<img width="1915" height="732" alt="image" src="https://github.com/user-attachments/assets/b1fb7b05-10cf-47a5-9faa-5882cc437646" />
+
 
 ________________________________________
 # IP Addressing Table
@@ -63,15 +64,20 @@ Router(dhcp-config)# exit<br>
 ________________________________________
 # Output (Screenshots)
 •	DHCP IP configuration shown in PC0 and PC1<br>
-<img width="750" height="552" alt="image" src="https://github.com/user-attachments/assets/ea88b13a-624b-49b2-849f-e9e624d26367" />
+<img width="1480" height="720" alt="Screenshot 2026-10-27 160320" src="https://github.com/user-attachments/assets/47179092-357a-4a69-883d-2e58ba903af2" />
+<img width="1598" height="671" alt="Screenshot 2026-10-27 160803" src="https://github.com/user-attachments/assets/840d2cdf-141c-4423-bfe7-2eb070160f13" />
 
-<img width="737" height="562" alt="image" src="https://github.com/user-attachments/assets/8dc6fbc9-510d-4ce5-91af-6e8afdd81b87" />
+<img width="1217" height="625" alt="Screenshot 2026-10-27 160554" src="https://github.com/user-attachments/assets/dd4df6f6-92f5-4f19-8118-5078b4e4ec60" />
+<img width="1411" height="652" alt="Screenshot 2026-10-27 160613" src="https://github.com/user-attachments/assets/f7b6c810-0a6f-42ef-831c-aef6f178d90f" />
 
 •	Router configuration screen<br>
-<img width="745" height="682" alt="image" src="https://github.com/user-attachments/assets/eee31856-e0c6-4b9d-969f-b044fa9f2855" />
+<img width="1461" height="597" alt="image" src="https://github.com/user-attachments/assets/cb1d4f90-2624-4d77-bad9-2e6e841697ae" />
+
 
 •	Successful ping test between the two PCs<br>
-<img width="732" height="667" alt="image" src="https://github.com/user-attachments/assets/e04109fe-0872-45ca-9b5e-79b617b52727" />
+<img width="1807" height="741" alt="image" src="https://github.com/user-attachments/assets/56000e45-12b0-4662-9122-9a8f34b8647e" />
+<img width="1892" height="757" alt="image" src="https://github.com/user-attachments/assets/176c6fdd-2937-4b7e-8ec9-206bc2d3c561" />
+
 
 # Result
 Successfully configured a DHCP server on the router. PCs were dynamically assigned IP addresses and were able to communicate over the network.
